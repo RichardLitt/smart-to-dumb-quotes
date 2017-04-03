@@ -1,0 +1,30 @@
+{
+  "name": "smart-to-dumb-quotes",
+  "version": "1.0.0",
+  "description": "Replace smart quotes with dumb quotes.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLitt/smart-to-dumb-quotes.git"
+  },
+  "keywords": [
+    "dumb",
+    "smart",
+    "quotes",
+    "replace",
+    "file"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/smart-to-dumb-quotes/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/smart-to-dumb-quotes#readme",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "replace": "^0.3.0"
+  }
+}
