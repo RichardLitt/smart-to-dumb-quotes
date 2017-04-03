@@ -1,6 +1,6 @@
 {
   "name": "smart-to-dumb-quotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace smart quotes with dumb quotes.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,9 @@
   "dependencies": {
     "meow": "^3.7.0",
     "replace": "^0.3.0"
-  }
+  },
+  "coordinates": [
+    45.5191869,
+    -73.5789255
+  ]
 }
