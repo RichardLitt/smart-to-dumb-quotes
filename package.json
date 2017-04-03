@@ -6,6 +6,9 @@
   "scripts": {
     "test": ""
   },
+  "bin": {
+    "quotes": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RichardLitt/smart-to-dumb-quotes.git"
