@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const replace = require("replace")
-const meow = require('meow');
+const replace = require('replace')
+const meow = require('meow')
 const cli = meow(`
     Usage:
         $ smart-to-dumb-quotes FILES [options]
@@ -14,13 +14,13 @@ const cli = meow(`
         -d, --double       only replace double quotes
         --debug            Do not be silent
 `, {
-    alias: {
-      h: 'help',
-      v: 'version',
-      r: 'recursive',
-      s: 'single',
-      d: 'double'
-    }
+  alias: {
+    h: 'help',
+    v: 'version',
+    r: 'recursive',
+    s: 'single',
+    d: 'double'
+  }
 })
 
 if (!cli.flags.single && !cli.flags.double || !cli.flags.single && cli.flags.double) {
@@ -35,7 +35,7 @@ if (!cli.flags.single && !cli.flags.double || !cli.flags.single && cli.flags.dou
 
 if (!cli.flags.single && !cli.flags.double || cli.flags.single && !cli.flags.double) {
   replace({
-    regex: "[‘’]",
+    regex: '[‘’]',
     replacement: "'",
     paths: cli.input,
     recursive: cli.recursive,

@@ -4,7 +4,7 @@
   "description": "Replace smart quotes with dumb quotes.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "standard"
   },
   "bin": {
     "quotes": "index.js"

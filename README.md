@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-npm i -g smart-to-dumb-quotes
+```sh
+npm install --global smart-to-dumb-quotes
 ```
 
 ## Usage
