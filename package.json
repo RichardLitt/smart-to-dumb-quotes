@@ -4,7 +4,8 @@
   "description": "Replace smart quotes with dumb quotes.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "lint": "standard",
+    "test": "standard && node test.js"
   },
   "bin": {
     "quotes": "index.js"
@@ -33,5 +34,8 @@
   "coordinates": [
     45.5191822,
     -73.57893609999999
-  ]
+  ],
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
 }

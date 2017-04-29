@@ -23,7 +23,7 @@ const cli = meow(`
   }
 })
 
-if (!cli.flags.single && !cli.flags.double || !cli.flags.single && cli.flags.double) {
+if ((!cli.flags.single && !cli.flags.double) || (!cli.flags.single && cli.flags.double)) {
   replace({
     regex: '[“”]',
     replacement: '"',
@@ -33,7 +33,7 @@ if (!cli.flags.single && !cli.flags.double || !cli.flags.single && cli.flags.dou
   })
 }
 
-if (!cli.flags.single && !cli.flags.double || cli.flags.single && !cli.flags.double) {
+if ((!cli.flags.single && !cli.flags.double) || (cli.flags.single && !cli.flags.double)) {
   replace({
     regex: '[‘’]',
     replacement: "'",
