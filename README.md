@@ -1,5 +1,7 @@
 # Smart to Dumb quotes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/smart-to-dumb-quotes.svg)](https://greenkeeper.io/)
+
 > Replace smart quotes with dumb quotes.
 
 ## Install
